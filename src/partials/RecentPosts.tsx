@@ -15,11 +15,11 @@ const RecentPosts = (props: IRecentPostsProps) => (
     title={
       <div className="flex items-baseline justify-between">
         <div>
-          Recent <GradientText>Posts</GradientText>
+          直近の <GradientText>投稿</GradientText>
         </div>
 
         <div className="text-sm">
-          <a href="/posts/">View all Posts →</a>
+          <a href="/posts/">すべて見る →</a>
         </div>
       </div>
     }

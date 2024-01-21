@@ -10,26 +10,18 @@ const Hero = () => (
     <HeroAvatar
       title={
         <>
-          Hi there, I'm <GradientText>Ixartz</GradientText> 👋
+          はじめまして、 <GradientText>Naoya Otani</GradientText> です 👋
         </>
       }
       description={
         <>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            malesuada
-          </a>{' '}
-          nisi tellus, non imperdiet nisi tempor at. Lorem ipsum dolor sit amet,{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            consectetur
-          </a>{' '}
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+          慶應義塾大学に通いながらソフトウェアエンジニアに従事しているおおたにと申します。休日はサウナで整ったりラーメン食べたりしています！気軽にコンタクトとりましょー👍
         </>
       }
       avatar={
         <img
-          className="h-80 w-64"
-          src="/assets/images/avatar.svg"
+          className="pointer-events-none h-80 w-80"
+          src="/assets/images/memoji.png"
           alt="Avatar image"
           loading="lazy"
         />
