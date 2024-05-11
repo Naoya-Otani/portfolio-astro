@@ -47,14 +47,15 @@ const ProjectList = () => (
         }
       />
       <Project
-        name="GETSET"
-        description="Coming soon!"
-        link="/"
+        name="HYFLEX"
+        description="和歌山コンピューター専門学校様のLP制作に携わらせていただきました。"
+        link="https://di-academy.com/"
         img={{ src: '/assets/images/project-maps.png', alt: 'Project Maps' }}
         category={
           <>
             <Tags color={ColorTags.VIOLET}>Next.js</Tags>
-            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+            <Tags color={ColorTags.ROSE}>GSAP</Tags>
+            <Tags color={ColorTags.SKY}>Scss</Tags>
           </>
         }
       />

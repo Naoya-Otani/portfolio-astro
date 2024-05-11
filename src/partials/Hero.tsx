@@ -10,12 +10,12 @@ const Hero = () => (
     <HeroAvatar
       title={
         <>
-          はじめまして、 <GradientText>Naoya Otani</GradientText> です 👋
+          はじめまして、 <GradientText>naotani</GradientText> です 👋
         </>
       }
       description={
         <>
-          慶應義塾大学に通いながらソフトウェアエンジニアに従事しているおおたにと申します。休日はサウナで整ったりラーメン食べたりしています！気軽にコンタクトとりましょー👍
+          慶應義塾大学に通いながらソフトウェアエンジニアとして働いているnaotaniと申します。休日はサウナで整ったりラーメン食べたりしています！気軽にコンタクトとりましょー👍
         </>
       }
       avatar={
@@ -28,28 +28,24 @@ const Hero = () => (
       }
       socialButtons={
         <>
-          <a href="/">
+          <a
+            href="https://twitter.com/naoya_NaN"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <HeroSocial
               src="/assets/images/twitter-icon.png"
               alt="Twitter icon"
             />
           </a>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/facebook-icon.png"
-              alt="Facebook icon"
-            />
-          </a>
-          <a href="/">
+          <a
+            href="https://www.linkedin.com/in/naoya-otani-dev/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <HeroSocial
               src="/assets/images/linkedin-icon.png"
               alt="Linkedin icon"
-            />
-          </a>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/youtube-icon.png"
-              alt="Youtube icon"
             />
           </a>
         </>
